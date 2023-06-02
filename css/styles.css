@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #444B6E;
+    font-family: sans-serif;
+}
+#container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 300px;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+#tabs {
+    width: 100%;
+}
+.tabs {
+    display: table-cell;
+    background-color: #A2BCE0;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #ffffff;
+    border-bottom: 0px;
+    position: relative;
+    font-size: 1.3em;
+    color: #ffffff;
+    width: 42%;
+}
+.tabs:hover, p{
+    cursor: pointer;
+}
+
+/*#lt {
+    background-color: #A2BCE0;
+}*/
+#cont {
+    height: 300px;
+    background-color: #A2BCE0;
+    border: 2px solid #ffffff;
+}
+
+input{
+    display: block;
+    width: 250px;
+    margin: 10px 13px;
+    padding: 10px;
+    font-size: 1.3em;
+    color: rgba(39, 82, 245, 0.38);
+    outline: 2px solid #ffffff;
+}
+
+input[type="submit"] {
+    width: 272px;
+    color: #6e6e6e;
+}
+
+#clear {
+    clear: both;
+}
+
+.comm {
+    position: absolute;
+    visibility: hidden;
+}
+#login {
+    visibility: visible;
+}
+
+h3 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+}
+
+#forgot h3 {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#forgot div {
+    margin-top: 30px;
+}
+p {
+    padding: 10px 15px;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+/*#footer {
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    color: rgba(9, 118, 155, 0.91);
+
+}*/
